@@ -99,5 +99,10 @@ body{
     width: 100%;
 
     }
+.img>img:hover{
+    border-radius: 60px;
+    border: 10px darkgreen  outset ;
+    zoom: 20%;
 
+}
 
