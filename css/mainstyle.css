@@ -1,3 +1,55 @@
 body{
     background-color:forestgreen;
 }
+.nav,ul {
+    list-style-type: none;
+    background-color: #111;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.menu,menu{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: gold;
+    font-weight: bolder;
+    font-size: larger;
+}
+.menu>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.menu:hover{
+    background-color: forestgreen;
+    color: black;
+    border-radius: 5px;
+}
+.home{
+    overflow: hidden;
+    text-align: center;
+    color: gold;
+    background-color: black;
+}
+.col{
+    float: left;
+    width: 48%;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.col>h3{
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+.about{
+}
+
+.about{
+    background-image: url("download.jpg");
+}
