@@ -1,0 +1,245 @@
+body{
+    background-color:forestgreen;
+}
+.nav,ul {
+    list-style-type: none;
+    background-color: #111;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.menu,menu{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: gold;
+    font-weight: bolder;
+    font-size: larger;
+}
+.menu>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.menu:hover{
+    background-color: forestgreen;
+    color: black;
+    border-radius: 5px;
+}
+.home{
+    overflow: hidden;
+    text-align: center;
+    color: gold;
+    background-color: black;
+}
+.col{
+    float: left;
+    width: 48%;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.col>h3{
+    background-color: forestgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+.about{
+}
+
+.about{
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+}
+.column{
+    float: left;
+    width: 30%;
+    margin: 10px;
+
+}
+.column>h3{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gold;
+    color: darkgreen;
+    text-align: center;
+}
+.product{
+    background-color: black;
+    color: blue;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.product>img{
+    width: 100%;
+
+}
+.prods{
+    float: left;
+    width: 48%;
+    color: lightskyblue;
+    padding: 10px;
+    }
+.prods>h3{
+    color: darkgreen;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-align:center;
+    font-size: larger;
+}
+.img>img{
+    width: 100%;
+
+    }
+.img>img:hover{
+    border-radius: 60px;
+    border: 10px darkgreen  outset ;
+    zoom: 20%;
+
+}
+.news{
+    background: black;
+    padding: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.news1{
+    display: flex;
+    flex-direction: row;   
+}
+.head-text{
+    color: gold;
+    text-align: center;
+    font-size: 26px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+/*news card.*/
+.card{
+    margin: 0px 10px;
+	display: grid;
+    width: 300px;
+	grid-template-columns: 300px;
+	grid-template-rows: 210px 210px 80px;
+	grid-template-areas: "image" "text" "stats";
+	font-family: roboto;
+	border-radius: 18px;
+	background: white 210px;
+	box-shadow:5px 5px 15px rgba(0,0,0,0.9);
+	text-align: center;
+	transition: 0.5s ease;
+	cursor:pointer;
+
+}
+.card-image img{
+	grid-area:image;
+    height: 210px;
+    width: 300px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.card-text{
+	grid-area:text;
+	margin: 25px;
+}
+.card-text .date{
+	color: forestgreen;
+	font-size: 13px;
+}
+.card-text p{
+	color: grey;
+	font-size: 15px;
+	font-weight: 300px;
+
+}
+.card-text h2{
+	margin-top: 0px;
+	font-size: 28px;	
+}
+.card-stats{
+	grid-area:stats;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: forestgreen;
+}
+.card-stats .stat{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	color: white;
+}
+.card-stats .type{
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;	
+}
+.card-stats .value{
+	font-size: 22px;
+	font-weight: 500;
+}
+.card-stats .border{
+	border-left:1px solid gold;
+	border-right:1px solid gold;
+}
+.card-stats .value sup{
+	font-size: 12px;
+}
+.card:hover{
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.button{
+    padding: 15px;
+    color: white;
+    background: forestgreen;
+    margin: 10px 0px 0px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+/*Contact us styling*/
+.contact{
+    background: black;
+    padding: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.form{
+    width: 60%;
+    background-repeat: space;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    padding: 20px;
+    background-color: forestgreen;
+    color: white;
+}
+.footer{
+    background: black;
+    padding: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.foot{
+    color: white;
+    text-align: center;
+}
