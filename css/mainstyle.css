@@ -102,14 +102,13 @@ body{
 .img>img:hover{
     border-radius: 60px;
     border: 10px darkgreen  outset ;
-    transform: scale(1.1);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    zoom: 20%;
 
 }
 .news{
     background: black;
     padding: 30px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0px 10px 0px;
 }
 .news1{
     display: flex;
@@ -119,8 +118,8 @@ body{
     color: gold;
     text-align: center;
     font-size: 26px;
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 /*news card.*/
 .card{
@@ -157,7 +156,7 @@ body{
 .card-text p{
 	color: grey;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 300px;
 
 }
 .card-text h2{
