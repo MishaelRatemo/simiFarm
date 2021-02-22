@@ -41,21 +41,21 @@ body{
     padding: 10px;
     text-align: left;
     color: white;
+
 }
 .col>h3{
     background-color: forestgreen;
     padding: 5px;
     border-radius: 5px;
-}
-.about{
-}
 
+}
 .about{
     background-color: black;
     margin-top: 5px;
     color: white;
     padding: 10px;
     overflow: hidden;
+
 }
 .column{
     float: left;
@@ -66,9 +66,10 @@ body{
 .column>h3{
     padding: 5px;
     border-radius: 5px;
-    background-color: gold;
+    background-color:forestgreen;
     color: darkgreen;
     text-align: center;
+
 }
 .product{
     background-color: black;
@@ -84,12 +85,12 @@ body{
 .prods{
     float: left;
     width: 48%;
-    color: lightskyblue;
+    color: white;
     padding: 10px;
     }
 .prods>h3{
     color: darkgreen;
-    background-color: dodgerblue;
+    background-color: forestgreen;
     border-radius: 5px;
     padding: 5px;
     text-align:center;
